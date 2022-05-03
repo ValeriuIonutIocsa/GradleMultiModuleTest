@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "./Projects/Test/ModuleHigh/ModuleHigh"
+    },
+    {
+      "path": "./Projects/Test/ModuleMid/ModuleMid"
+    },
+    {
+      "path": "./Projects/Test/ModuleLow/ModuleLow"
+    }
+  ]
+}

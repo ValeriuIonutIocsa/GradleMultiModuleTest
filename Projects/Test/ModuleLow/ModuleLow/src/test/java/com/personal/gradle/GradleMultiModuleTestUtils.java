@@ -8,4 +8,8 @@ final class GradleMultiModuleTestUtils {
 	static String createInitialString() {
 		return "InitialString";
 	}
+
+	static String createOtherInitialString() {
+		return "OtherInitialString";
+	}
 }
