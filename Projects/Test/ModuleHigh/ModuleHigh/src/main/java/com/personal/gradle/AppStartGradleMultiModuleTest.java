@@ -11,11 +11,11 @@ final class AppStartGradleMultiModuleTest {
             final String[] args) {
 
         System.out.println();
-        
+
         System.out.println("args: " + Arrays.toString(args));
 
-        String initialString = "AppStartInitialString";
-        String outputString = ModuleHigh.appendModuleHigh(initialString);        
+        final String initialString = "AppStartInitialString";
+        final String outputString = ModuleHigh.appendModuleHigh(initialString);
         System.out.println(outputString);
 
         System.out.println();
