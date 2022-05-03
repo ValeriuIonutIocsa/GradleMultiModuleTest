@@ -9,5 +9,28 @@
     {
       "path": "./Projects/Test/ModuleLow/ModuleLow"
     }
-  ]
+  ],
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Launch Current File",
+        "request": "launch",
+        "mainClass": "${file}"
+      },
+      {
+        "type": "java",
+        "name": "Launch AppStartGradleMultiModuleTest",
+        "request": "launch",
+        "mainClass": "com.personal.gradle.AppStartGradleMultiModuleTest",
+        "args": [
+          "arg1",
+          "arg2",
+          "arg3"
+        ],
+        "projectName": "ModuleHigh"
+      }
+    ]
+  }
 }
