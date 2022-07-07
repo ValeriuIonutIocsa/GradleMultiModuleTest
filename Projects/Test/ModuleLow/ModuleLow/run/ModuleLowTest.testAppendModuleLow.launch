@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.junit.launchconfig">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/ModuleHigh/com/personal/gradle/ModuleHighTest.java"/>
+        <listEntry value="/ModuleLow/com/personal/gradle/ModuleLowTest.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -13,11 +13,11 @@
     </listAttribute>
     <stringAttribute key="org.eclipse.jdt.junit.CONTAINER" value=""/>
     <booleanAttribute key="org.eclipse.jdt.junit.KEEPRUNNING_ATTR" value="false"/>
-    <stringAttribute key="org.eclipse.jdt.junit.TESTNAME" value="appendModuleHigh"/>
+    <stringAttribute key="org.eclipse.jdt.junit.TESTNAME" value="testAppendModuleLow"/>
     <stringAttribute key="org.eclipse.jdt.junit.TEST_KIND" value="org.eclipse.jdt.junit.loader.junit5"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.personal.gradle.ModuleHighTest"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ModuleHigh"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.personal.gradle.ModuleLowTest"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ModuleLow"/>
     <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-ea"/>
 </launchConfiguration>

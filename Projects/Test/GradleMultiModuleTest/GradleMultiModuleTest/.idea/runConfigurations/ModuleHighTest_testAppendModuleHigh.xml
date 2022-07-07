@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-    <configuration default="false" factoryName="JUnit" folderName="ModuleHigh" name="ModuleHighTest.appendModuleHigh" nameIsGenerated="true" type="JUnit">
-        <module name="GradleMultiModuleTest.ModuleHigh"/>
+    <configuration default="false" factoryName="JUnit" folderName="ModuleHigh" name="ModuleHighTest.testAppendModuleHigh" nameIsGenerated="true" type="JUnit">
+        <module name="GradleMultiModuleTest.ModuleHigh.test"/>
         <extension name="coverage">
             <pattern>
                 <option name="PATTERN" value="com.personal.gradle.*"/>
@@ -9,7 +9,7 @@
         </extension>
         <option name="PACKAGE_NAME" value="com.personal.gradle"/>
         <option name="MAIN_CLASS_NAME" value="com.personal.gradle.ModuleHighTest"/>
-        <option name="METHOD_NAME" value="appendModuleHigh"/>
+        <option name="METHOD_NAME" value="testAppendModuleHigh"/>
         <option name="TEST_OBJECT" value="method"/>
         <method v="2">
             <option enabled="true" name="Make"/>
