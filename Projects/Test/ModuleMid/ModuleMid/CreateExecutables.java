@@ -56,7 +56,7 @@ final class CreateExecutables {
 					final LogRecord record) {
 
 				final ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-				try (final PrintStream printStream = new PrintStream(byteArrayOutputStream)) {
+				try (PrintStream printStream = new PrintStream(byteArrayOutputStream)) {
 
 					final Throwable throwable = record.getThrown();
 					if (throwable != null) {
