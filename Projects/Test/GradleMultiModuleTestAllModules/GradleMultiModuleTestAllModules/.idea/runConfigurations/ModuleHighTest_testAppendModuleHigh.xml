@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
     <configuration default="false" factoryName="JUnit" folderName="ModuleHigh" name="ModuleHighTest.testAppendModuleHigh" nameIsGenerated="true" type="JUnit">
-        <module name="AllModulesGradleMultiModuleTest.ModuleHigh.test"/>
+        <module name="GradleMultiModuleTestAllModules.ModuleHigh.test"/>
         <extension name="coverage">
             <pattern>
                 <option name="PATTERN" value="com.personal.gradle.*"/>

@@ -9,8 +9,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/../../GradleMultiModuleTest/GradleMultiModuleTest" />
+            <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/../../ModuleHigh/ModuleHigh" />
             <option value="$PROJECT_DIR$/../../ModuleLow/ModuleLow" />
             <option value="$PROJECT_DIR$/../../ModuleMid/ModuleMid" />

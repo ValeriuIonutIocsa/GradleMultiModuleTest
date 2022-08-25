@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="AppStartGradleMultiModuleTest" type="Application" factoryName="Application" nameIsGenerated="true">
     <option name="MAIN_CLASS_NAME" value="com.personal.gradle.AppStartGradleMultiModuleTest" />
-    <module name="AllModulesGradleMultiModuleTest.GradleMultiModuleTest.main" />
+    <module name="GradleMultiModuleTestAllModules.GradleMultiModuleTest.main" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="com.personal.gradle.*" />
