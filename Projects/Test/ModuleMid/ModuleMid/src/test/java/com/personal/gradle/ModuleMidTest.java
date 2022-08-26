@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.commons.util.StringUtils;
 
-class ModuleHighTest {
+class ModuleMidTest {
 
 	@Test
-	void testAppendModuleHigh() {
+	void testAppendModuleMid() {
 
 		final String initialString = GradleMultiModuleTestUtils.createInitialString();
-		final String output = ModuleHigh.appendModuleHigh(initialString);
+		final String output = ModuleMid.appendModuleMid(initialString);
 
 		System.out.println();
 		System.out.println(output);
@@ -19,10 +19,10 @@ class ModuleHighTest {
 	}
 
 	@Test
-	void testAppendModuleHighOther() {
+	void testAppendModuleMidOther() {
 
 		final String otherInitialString = GradleMultiModuleTestUtils.createOtherInitialString();
-		final String output = ModuleHigh.appendModuleHigh(otherInitialString);
+		final String output = ModuleMid.appendModuleMid(otherInitialString);
 
 		System.out.println();
 		System.out.println(output);

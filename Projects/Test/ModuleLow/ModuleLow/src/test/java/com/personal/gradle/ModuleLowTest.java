@@ -11,9 +11,22 @@ class ModuleLowTest {
 
 		final String initialString = GradleMultiModuleTestUtils.createInitialString();
 		final String output = ModuleLow.appendModuleLow(initialString);
-		Assertions.assertFalse(StringUtils.isBlank(output));
 
 		System.out.println();
 		System.out.println(output);
+
+		Assertions.assertFalse(StringUtils.isBlank(output));
+	}
+
+	@Test
+	void testAppendModuleLowOther() {
+
+		final String otherInitialString = GradleMultiModuleTestUtils.createOtherInitialString();
+		final String output = ModuleLow.appendModuleLow(otherInitialString);
+
+		System.out.println();
+		System.out.println(output);
+
+		Assertions.assertFalse(StringUtils.isBlank(output));
 	}
 }
