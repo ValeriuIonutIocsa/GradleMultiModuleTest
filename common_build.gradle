@@ -383,11 +383,12 @@ test.onlyIf { ! Boolean.getBoolean('skip.tests') }
 
 test {
     useJUnitPlatform()
-    maxHeapSize = '4g'
+    maxHeapSize = '8g'
     outputs.upToDateWhen { false }
     testLogging {
         events "passed", "skipped", "failed", "standardOut", "standardError"
     }
+    systemProperty 'args', System.getProperty('args')
 }
 
 apply plugin: 'test-report-aggregation'
