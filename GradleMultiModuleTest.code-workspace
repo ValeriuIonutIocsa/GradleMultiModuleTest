@@ -1,6 +1,12 @@
 {
   "folders": [
     {
+      "path": "./Projects/Test/GradleMultiModuleTestAllModules/GradleMultiModuleTestAllModules"
+    },
+    {
+      "path": "./Projects/Test/GradleMultiModuleTest/GradleMultiModuleTest"
+    },
+    {
       "path": "./Projects/Test/ModuleHigh/ModuleHigh"
     },
     {
@@ -29,7 +35,7 @@
           "arg2",
           "arg3"
         ],
-        "projectName": "ModuleHigh"
+        "projectName": "GradleMultiModuleTest"
       }
     ]
   }
